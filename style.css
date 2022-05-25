@@ -109,9 +109,9 @@ nav .fas {
     display: block;
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     background-color: #f44336;
-    height: 100vh;
+    min-height: 100vh;
     width: 200px;
     top: 0;
     right: -200px;
@@ -359,4 +359,175 @@ h3 {
   cursor: pointer;
   margin: 0 13px;
   padding: 18px 0;
+}
+
+/* about us page */
+.sub-header {
+  min-height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(eduford_img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-header h1 {
+  margin-top: 100px;
+}
+
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-us-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-us-col img {
+  width: 100%;
+}
+
+.about-us-col h1 {
+  padding: 0;
+}
+
+.about-us-col p {
+  padding: 15px 0 25px;
+}
+
+.red-btn {
+  color: #f44336;
+  border-color: #f44336;
+}
+
+.hero-btn:hover {
+  color: #fff;
+}
+
+/* courses page */
+.sub-header2 {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(eduford_img/kurser.jpg);
+}
+
+/* blog page */
+.blog {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(eduford_img/apw_blog_header_young_woman_with_laptop_4.jpg);
+}
+
+.blog-content {
+  width: 80%;
+  padding: 60px 0;
+  margin: auto;
+}
+
+.blog-col-left {
+  flex-basis: 65%;
+}
+
+.blog-col-left img {
+  width: 100%;
+}
+
+.blog-col-left h2 {
+  font-weight: 600;
+  color: #222;
+  margin: 30px 0;
+}
+
+.blog-col-left p {
+  padding: 0;
+  color: #999;
+}
+.blog-col-right {
+  flex-basis: 32%;
+}
+
+.blog-col-right h3 {
+  background-color: #f44336;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.blog-col-right div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+}
+
+
+
+.cont {
+  min-height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(eduford_img/contact-us.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.location iframe {
+  width: 100%;
+}
+
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-col div .fas {
+  font-size: 28px;
+  color: #f44336;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+.contact-col div p {
+  padding: 0;
+}
+
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
+}
+
+.contact-col input,
+.contact-col textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
 }
